@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Baloo';
+    src: url(./fonts/Baloo2-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__container {
+    background-color: #F14D42;
+    height: 484px;
+    width: 306px;
+    border-radius: 16px;
+    padding: 12px;
+}
+
+.container__info-card {
+    background-color: #FFF;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.info-card__front {
+    display: flex;
+    flex-direction: column;
+}
+
+.front__title {
+    background-color: #F14D42;
+    color: #FFF;
+    font-family: 'Baloo';
+    font-size: 50px;
+    line-height: 95%;
+    letter-spacing: 0.28px;
+}
+
+.front__basic-info {
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+.front__hobbies, .front__hard-skills {
+    margin-top: 12px;
+    margin-left: 12px;
+}
+
+.basic-info__name {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+}
+
+.name__title, .hard-skills__title, .hobbies__title {
+    color: #D00809;
+    font-family: 'Baloo';
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: 800;
+}
+
+.hard-skills__list, .hobbies__list {
+    list-style: none;
+}
