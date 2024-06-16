@@ -12,3 +12,7 @@
 ## Hobbies:
 1. Футбол
 2. Криптовалюта
+-----------------------------------------------
+### Повна версія мого портфоліо: [AwenPortfolio](https://awenportfolio.netlify.app/)
+### Logo: 
+![Logo Awen](https://upload.wikimedia.org/wikipedia/commons/7/76/Awen_symbol_final.svg "Logo")
